@@ -1,7 +1,7 @@
 ---
 import {Button} from '../ui/button'
 import {PROFILE} from "../../content/profileData";
-import {Linkedin, Github, Mail, Youtube, Rss, Book, PanelsTopLeft} from 'lucide-react'
+import {Linkedin, Github, Mail, Dices, Rss, Book, PanelsTopLeft} from 'lucide-react'
 ---
 
 <div class="flex h-full w-full animate-appear">
@@ -13,6 +13,9 @@ import {Linkedin, Github, Mail, Youtube, Rss, Book, PanelsTopLeft} from 'lucide-
       <p class="m-0 text-xl font-light">
         Hi, I'm
         <b class="font-bold">{PROFILE.firstName}</b>.
+      </p>
+      <p class="m-0 text-xl font-light">
+        {PROFILE.presentation}
       </p>
       <ul class="pt-4">
         {PROFILE.shortIntros.map((intro, index) => (
@@ -34,6 +37,12 @@ import {Linkedin, Github, Mail, Youtube, Rss, Book, PanelsTopLeft} from 'lucide-
         <Button aria-label="github profile">
           <Github/>
           <span class="sr-only">GitHub Profile</span>
+        </Button>
+      </a>
+      <a href={PROFILE.links.boardgamearena} aria-label="github profile" target="_blank">
+        <Button aria-label="boardgamearena profile">
+          <Dices/>
+          <span class="sr-only">BoardGameArena Profile</span>
         </Button>
       </a>
     </div>
