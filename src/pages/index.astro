@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import IntroCard from '../components/sections/IntroCard.astro'
+import WorkingCurrently from '../components/sections/WorkingCurrently.astro'
 import AboutMe from '../components/sections/AboutMe.astro'
 import Card from '../components/Card.astro'
 import TimeZoneCard from '../components/sections/TimeZoneCard.astro'
@@ -39,9 +40,10 @@ const SITE = PROFILE.site
       <Projects/>
     </Card>
 
-    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2" title="Your time">
-      <TimeZoneCard/>
+    <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2" title="Currently working on">
+      <WorkingCurrently/>
     </Card>
+
     <Card colSpan="lg:col-span-3 md:col-span-1" rowSpan="md:row-span-1 lg:row-span-2" title="My time">
       <TimeZoneCard timezone={PROFILE.timezone} />
     </Card>

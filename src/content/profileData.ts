@@ -9,11 +9,11 @@ export const PROFILE = {
   language: "en-AU",
   firstName: "Quentin",
   name: "Quentin Marques",
-  headLine: "Welcome to my dashboard ! ",
+  headLine: "",
   headLine2:
     "headLine2",
   website: "https://www.quentinmarques.com",
-  repo: "repo",
+  repo: "https://github.com/Kent1mrqs/portfolio",
   avatarUrl: "https://www.quentinmarques.com/avatar.webp",
   presentation: "Welcome to my dashboard.",
   shortIntros: [
@@ -30,7 +30,9 @@ export const PROFILE = {
   links: {
     github: "https://github.com/Kent1mrqs",
     boardgamearena: "https://boardgamearena.com/player?id=92661770",
+    linkedin: "",
   },
   studies: [
   ],
+  currently: "Home Assistant"
 };

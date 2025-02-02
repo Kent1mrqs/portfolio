@@ -28,7 +28,7 @@ const getLocalLanguage = (): string => {
 }
 
 export const formateLocalDate = (
-  date: Date,
+  date: string,
   timeZone: string = PROFILE.timezone,
 ): string => {
   return new Intl.DateTimeFormat(getLocalLanguage(), {
