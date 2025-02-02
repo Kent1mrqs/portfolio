@@ -35,15 +35,10 @@ const canonical = canonicalURL? canonicalURL: new URL(Astro.url.pathname, Astro.
   ogImage ?
   <>
     <meta property="og:image" content={ogImage}/>
-    <meta property="twitter:image" content={ogImage}/>
   </>:
   <></>
   }
 
-<meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:url" content={canonical}/>
-<meta property="twitter:title" content={title}/>
-<meta property="twitter:description" content={description}/>
 
 <link rel="preload" href="shttps://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"></noscript>
