@@ -22,7 +22,7 @@ export const PROFILE = {
     "",
     "🐱 Cat Lover | 🎲 Board Game Player | 📚 Book Reader"
   ],
-  words: [""],
+  words: ["To achieve great things, two things are needed: a plan, and not quite enough time — Leonard Bernstein"],
   skills: [
     "Docker",
     "Ansible"
