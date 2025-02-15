@@ -17,10 +17,10 @@ export const PROFILE = {
   avatarUrl: "https://www.quentinmarques.com/avatar.webp",
   presentation: "Welcome to my dashboard.",
   shortIntros: [
-    "🏠 Home Automation Passionate",
-    "🌐 Self-hosting Enthusiast",
-    "📚 Book Reader",
-    "🐱 Cat Lover | 🎲 Board Game Player"
+    "💻 Software and IoT Engineer",
+    "🏠 Home Automation Passionate | 🌐 Self-hosting Enthusiast",
+    "",
+    "🐱 Cat Lover | 🎲 Board Game Player | 📚 Book Reader"
   ],
   words: [""],
   skills: [
@@ -30,9 +30,21 @@ export const PROFILE = {
   links: {
     github: "https://github.com/Kent1mrqs",
     boardgamearena: "https://boardgamearena.com/player?id=92661770",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/quentin-marques-4679a8219",
   },
   studies: [
+    {
+      title: "TOEIC",
+      level: "",
+    },
+    {
+      title: "Voltaire Certification",
+      institution: "Voltaire",
+    },
+    {
+      title: "Engineer Degree in Cybersecurity and IoT",
+      institution: "ESILV",
+    },
   ],
-  currently: "Home Assistant"
+  currently: "Primarily focused on Home Assistant, with a new venture into Arduino electronics."
 };
