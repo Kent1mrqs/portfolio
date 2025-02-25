@@ -18,7 +18,7 @@ export const PROFILE = {
   presentation: "Welcome to my dashboard.",
   shortIntros: [
     "💻 Software and IoT Engineer",
-    "🏠 Home Automation Passionate | 🌐 Self-hosting Enthusiast",
+    "🏠 Home Automation Passionate | 🌐 Self-hosting Enthusiast      ",
     "",
     "🐱 Cat Lover | 🎲 Board Game Player | 📚 Book Reader"
   ],
